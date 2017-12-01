@@ -344,13 +344,11 @@ var Grid = (function() {
 			// create Preview structure:
 			this.$title = $( '<h3></h3>' );
 			this.$otr = $( '<h4></h4>' );
-			this.$dp = $( '<p></p>' );
-			this.$duatiga = $( '<p></p>' );
-			this.$duasembilan = $( '<p></p>' );
-			this.$tigalima = $( '<p></p>' );
+			this.$dp = $( '<p><b></b></p>' );
+			this.$tenor = $( '<p></p>' );
 			this.$description = $( '<p></p>' );
 			this.$href = $( '<a href="#">Tanya Promo</a>' );
-			this.$details = $( '<div class="og-details"></div>' ).append( this.$title, this.$otr, this.$dp, this.$duatiga, this.$duasembilan, this.$tigalima, this.$description, this.$href );
+			this.$details = $( '<div class="og-details"></div>' ).append( this.$title, this.$otr, this.$dp, this.$tenor, this.$description, this.$href );
 			this.$loading = $( '<div class="og-loading"></div>' );
 			this.$fullimage = $( '<div class="og-fullimg"></div>' ).append( this.$loading );
 			this.$closePreview = $( '<span class="og-close"></span>' );
@@ -389,18 +387,14 @@ var Grid = (function() {
 					title : $itemEl.data( 'title' ),
 					otr : $itemEl.data( 'otr' ),
 					dp : $itemEl.data( 'dp' ),
-					duatiga : $itemEl.data( 'duatiga' ),
-					duasembilan : $itemEl.data( 'duasembilan' ),
-					tigalima : $itemEl.data( 'tigalima' ),
+					tenor : $itemEl.data( 'tenor' ),
 					description : $itemEl.data( 'description' )
 				};
 
 			this.$title.html( eldata.title );
 			this.$otr.html( eldata.otr );
 			this.$dp.html( eldata.dp );
-			this.$duatiga.html( eldata.duatiga );
-			this.$duasembilan.html( eldata.duasembilan );
-			this.$tigalima.html( eldata.tigalima );
+			this.$tenor.html( eldata.tenor );
 			this.$description.html( eldata.description );
 			this.$href.attr( 'href', eldata.href );
 
