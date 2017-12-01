@@ -1,13 +1,4 @@
 
-*,
-*:after,
-*:before {
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
-	padding: 0;
-	margin: 0;
-}
 
 .og-grid {
 	list-style: none;
@@ -120,13 +111,13 @@
 }
 
 .og-details h3 {
-	font-weight: 300;
+	font-weight: bold;
 	font-size: 50px;
 	color: #0086d3;
 }
 
 .og-details h4 {
-	font-weight: 200;
+	font-weight: bold;
 	font-size: 25px;
 	color: #0086d3;
 }
