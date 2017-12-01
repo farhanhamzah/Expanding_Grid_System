@@ -123,13 +123,15 @@
 .og-details h3 {
 	font-weight: 300;
 	font-size: 50px;
-	padding: 20px 0 15px;
+	padding: 5px 0 15px;
+	color: #0086d3;
 }
 
 .og-details h4 {
 	font-weight: 200;
 	font-size: 25px;
 	margin-bottom: 5px;
+	color: #0086d3;
 }
 
 .og-details p {
