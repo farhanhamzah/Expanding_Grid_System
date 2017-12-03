@@ -98,7 +98,7 @@
 
 .og-details {
 	color: #0086d3;
-	padding: 0 20px 0 10px;
+	padding: 0 30px 0 15px;
 	padding-bottom: 0;
 }
 
@@ -116,7 +116,7 @@
 	font-weight: bold;
 	font-size: 35px;
 	padding: 5px 0 5px;
-	padding-bottom: 0;
+	margin: 0;
 	color: #0086d3;
 }
 
