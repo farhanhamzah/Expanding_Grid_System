@@ -114,8 +114,8 @@
 
 .og-details h3 {
 	font-weight: bold;
-	font-size: 35px;
-	padding: 5px 0 5px;
+	font-size: 34px;
+	padding: 4px 0 5px;
 	padding-bottom: 0;
 	color: #0086d3;
 }
@@ -193,9 +193,9 @@
 
 @media screen and (max-width: 830px) {
 
-	.og-expander h3 { font-size: 32px; }
-	.og-expander h4 { font-size: 18px; }
-	.og-expander p { font-size: 13px; }
+	.og-expander h3 { font-size: 30px; }
+	.og-expander h4 { font-size: 16px; }
+	.og-expander p { font-size: 12px; }
 	.og-expander a { font-size: 12px; }
 
 }
