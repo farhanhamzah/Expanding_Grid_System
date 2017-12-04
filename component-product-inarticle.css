@@ -114,7 +114,7 @@
 
 .og-details h3 {
 	font-weight: bold;
-	font-size: 34px;
+	font-size: 24px;
 	padding: 4px 0 5px;
 	padding-bottom: 0;
 	color: #0086d3;
@@ -122,13 +122,13 @@
 
 .og-details h4 {
 	font-weight: 150;
-	font-size: 25px;
+	font-size: 18px;
 	color: #0086d3;
 }
 
 .og-details p {
 	font-weight: 400;
-	font-size: 16px;
+	font-size: 14px;
 	line-height: 22px;
 	color: #999;
 }
